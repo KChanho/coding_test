@@ -12,7 +12,15 @@ import sys
 data = input()
 move = [(-2, -1), (-1, -2), (1, -2), (2, -1), (2, 1), (1, 2), (-1, 2), (-2, 1)]
 x = int(data[1])
-y = int(ord(data[0])) - int(ord('a')) + 1 #문자를 인트로 변환하는 함수 ord()
+y = int(ord(data[0])) - int(ord('a')) + 1 #문자를 아스키코드로 변환하는 함수 ord()
 
+result = 0
+for m in move:
+  nx = x + m[0]
+  ny = y + m[1]
+  if nx >= 1 and nx <= 8 and ny >= 1 and ny <= 8:
+    result += 1
+
+print(result)
 
 #시뮬레이션, 완전 탐색 유형
