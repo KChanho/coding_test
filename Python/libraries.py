@@ -49,3 +49,14 @@ import math
 
 def lcm(a, b):  #최소 공배수(LCM)을 구하는 함수
   return a * b // math.gcd(a,b)
+
+
+
+# time - time 라이브러리를 활용해 함수 수행시간 측정하기
+import time
+start_time = time.time()
+
+#Coding...
+
+end_time = tim.time()
+print("time:", end_time - start_time)
