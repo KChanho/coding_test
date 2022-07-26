@@ -89,6 +89,7 @@ def quick_sort(array):
   left_side = [x for x in tail if x <= pivot]
   right_side = [x for x in tail if x > pivot]
   
+  # 분할 이후 왼쪽 부분과 오른쪽 부분에서 각각 정렬 수행하고, 전체 리스트 
   return quick_sort(left_side) + [pivot] + quick_sort(right_side)
 
 print(quick_sort(array))
