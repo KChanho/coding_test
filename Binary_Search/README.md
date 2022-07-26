@@ -8,7 +8,7 @@
 - 이진 탐색은 탐색 범위를 절반씩 줄이며, 시간 복잡도 O(logN) 보장
 
 ```python
-def binary_search(array, start, end):
+def binary_search(array, target, start, end):
   if start > end:
     return None
   mid = (start + end) // 2
