@@ -129,3 +129,4 @@ for i in range(len(coun)): # 리스트에 기록된 정렬 정보 확인 및 출
 ```
 
 ## 정렬 알고리즘 비교하기
+![sort_compare](https://user-images.githubusercontent.com/94108712/180930689-fa6946f1-bb9f-4591-a043-a38903db8f5c.png)
