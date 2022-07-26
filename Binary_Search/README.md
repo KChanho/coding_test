@@ -44,3 +44,7 @@ print(bisect_left(a, x)
 print(bisect_right(a, x)
 # 4
 ```
+
+### 파라메트릭 서치 (Parametric Search)
+- 최적화 문제를 결정 문제('예' 혹은 '아니오')로 바꾸어 해결하는 기법
+- 일반적으로 코딩 테스트에서 파라메트릭 서치 문제는 이진 탐색을 이용하여 해
